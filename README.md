@@ -1,5 +1,5 @@
 # Abhivyakti 2023
-// this was a comment made by dev sadasdasdsad
+// this was a comment made by dev sdasdasdad
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
