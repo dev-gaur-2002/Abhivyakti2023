@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 .hero{
-  background-image: url('../public/layered-waves-haikei.svg');
+  background-image: url('/layered-waves-haikei.svg');
   min-width: 100vw;
   min-height: 100vh;
   height: 100vh;
