@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.musicBackground {
+    height: 190vh;
+    width: 100vw;
+    background-color: #FEF3E1;
+    position: absolute;
+    z-index: -1;
+}
+
+.rightside {
+    background-color: transparent;
+    
+    
+    transform-origin: center;
+  transition: transform 0.3s;
+    z-index: 0;
+    margin-top: 170px;
+    margin-left: 160px;
+    width: 1181px;
+    height: 324px;
+    font-family: 'Rambla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112.02%;
+    color: #000000;
+}
+#notanimated {
+    transform-origin: center;
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  #animated {
+    text-align: left;
+    
+  }
+
+.leftside{
+    margin-left: 58%;
+    margin-top: 55%;
+}
