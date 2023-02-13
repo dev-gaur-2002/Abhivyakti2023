@@ -20,3 +20,15 @@
   margin-bottom: 0 auto;
   margin: 0 auto;
 }
+
+.box1{
+box-sizing: border-box;
+
+position: absolute;
+width: 358px;
+height: 309px;
+left: 178px;
+top: 56px;
+
+border: 1px solid #000000;
+}

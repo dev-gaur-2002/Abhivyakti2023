@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.herobackground{
+    background-color: #FCFFE7;
+    height: 768px;
+
+    
+}
+
+.herohead{
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.basichead{
+    padding-top:216px;
+    font-family: Rambla;
+font-size: 78px;
+font-style: italic;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.basichead2{
+  
+    font-family: Rambla;
+font-size: 78px;
+font-style: italic;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+.mainhead{
+    padding: 25px 0;
+font-family: Rambla;
+font-size: 136px;
+font-style: italic;
+font-weight: 700;
+line-height: 135px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.trophy{
+    height:80px;
+    width:80px;
+    margin-bottom: -10px;
+}
+.cup{
+    height:80px;
+    width:80px;
+}
+.phone{
+    height:77px;
+    width:78px;
+    margin-bottom: -10px;
+}
+.speaker{
+    height:86px;
+    width:86px;
+    margin-bottom: -10px;
+}
+.rainbow{
+    height:100px;
+    width:100px;
+}
+.star{
+    height:100px;
+    width:100px;
+}
+.time{
+    height:76px;
+    width:76px;
+    margin-bottom: -10px;
+}
+
+.circle{
+    width:10px;
+   border: #007074 15px dotted;
+   border-radius: 15px;
+   display: inline-block;
+   margin-bottom: 35px;
+    
+}
+.circle2{
+    width:10px;
+   border: #007074 15px dotted;
+   border-radius: 15px;
+   display: inline-block;
+   margin-bottom: 15px;
+    
+}
+
+.herohead b{
+    color:#007074;
+    
+}
+.herohead h2{
+    white-space: nowrap;
+    animation:move-left 230s linear infinite;
+}
+.herohead h1{
+    white-space: nowrap;
+    animation:move-right 210s linear infinite;
+}
+@keyframes move-left{
+    0% {
+        transform:translateX(7%);
+    }
+    100% {
+        transform:translateX(-100%);
+    }
+}
+@keyframes move-right{
+    0% {
+        transform:translateX(-100%);
+    }
+    100% {
+        transform:translateX(0%);
+    }
+}
+
+
+ 
+
