@@ -8,14 +8,14 @@
 }
 
 .herohead{
-    
+    word-spacing: 10px;
     overflow: hidden;
     display: flex;
     justify-content: flex-start;
     
 }
 .basichead{
-    padding-top:216px;
+    padding-top:156px;
     font-family: Rambla;
 font-size: 78px;
 font-style: italic;
@@ -38,9 +38,9 @@ text-align: left;
 
 
 .mainhead{
-    padding: 25px 0;
+    padding: 50px 0;
 font-family: Rambla;
-font-size: 136px;
+font-size: 225px;
 font-style: italic;
 font-weight: 700;
 line-height: 135px;
@@ -67,14 +67,20 @@ text-align: left;
     height:86px;
     width:86px;
     margin-bottom: -10px;
+    margin-right:350px;
 }
 .rainbow{
-    height:100px;
-    width:100px;
+    height:160px;
+    width:160px;
+}
+.rainbow2{
+    height:160px;
+    width:160px;
+    margin-left:450px;
 }
 .star{
-    height:100px;
-    width:100px;
+    height:160px;
+    width:160px;
 }
 .time{
     height:76px;
@@ -84,10 +90,10 @@ text-align: left;
 
 .circle{
     width:10px;
-   border: #007074 15px dotted;
-   border-radius: 15px;
+   border: #007074 25px dotted;
+   border-radius: 25px;
    display: inline-block;
-   margin-bottom: 35px;
+   margin-bottom: 60px;
     
 }
 .circle2{
@@ -96,6 +102,8 @@ text-align: left;
    border-radius: 15px;
    display: inline-block;
    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right:30px;
     
 }
 
@@ -105,11 +113,11 @@ text-align: left;
 }
 .herohead h2{
     white-space: nowrap;
-    animation:move-left 230s linear infinite;
+    animation:move-left 250s linear infinite;
 }
 .herohead h1{
     white-space: nowrap;
-    animation:move-right 210s linear infinite;
+    animation:move-right 280s linear infinite;
 }
 @keyframes move-left{
     0% {
