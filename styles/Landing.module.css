@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+.Landing-flex {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+/* .kk{
+    display: flex;
+    position: absolute;     
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center; 
+    width: 50%;
+    height: 50%;
+} */
+.abhi {
+  border: 2px black solid;
+  background-color: black;
+  color: #ecc3ff;
+  padding: 1rem 2.5rem;
+  border-radius: 10rem;
+  font-family: "Lovely Home", sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 99.02%;
+}
+.center {
+  text-align: center;
+  position: absolute;
+  margin-top: 4rem;
+}
+.box1 {
+  flex: 1;
+  display: flex;
+  background-color: #ecc3ff;
+  align-items: center;
+  flex-direction: column;
+  
+    justify-content: space-around;
+
+}
+.box2 {
+  flex: 1;
+  background: #fef3e1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box1 p{
+  font-family: 'Rambla', sans-serif;
+  font-size: 42px;
+  line-height: 130.52%;
+  align-items: center;
+        justify-content: space-around;
+        left: 50%;
+    top: 50%;
+    width: 25rem;
+    font-weight: 400;
+  
+
+}
+.box1 .Enter{
+    border: 1px solid orangered;
+    background-color: orangered;
+    border-radius: 3rem;
+    padding: 0.1rem 1rem;
+    
+}
+.box2 p{
+  font-family: 'Rambla';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 143.02%;
+width: 35rem;
+text-align: center;
+padding-top: 10rem;
+z-index: 1;
+}
+
+.child{
+  border: 2px solid orange;
+  border-radius: 3rem;
+  padding: 0.1rem 0.8rem;
+}
+.memo{
+  border: 2px solid orange;
+  border-radius: 3rem;
+  padding: 0.1rem 0.8rem;
+  background-color: orange;
+}
+.border-circle{
+  background-color: #DB99FA;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #DB99FA;
+  position: relative;
+  margin-bottom: 14rem;
+  margin-right: 26rem;
+  position: absolute;
+  z-index: 0;
+
+
+}
+.purple{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: #fef3e1;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+.curved-text {
+  font-size: 2.5rem;
+  font-family: 'Rambla';
+  letter-spacing: 0.145em;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+}
+.blue-cirle{
+  border: 1px solid #3E28C9;
+  border-radius: 50%;
+  background-color: #3E28C9;
+  color: #DB99FA ;
+  height: 75px;
+  width: 75px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  position: absolute;
+  transform: rotate(-28deg);
+  line-height: 130.52%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  margin-right: 24rem;
+  margin-top: 17rem;
+
+
+}
+
+.follow{
+  position: absolute;
+  margin-bottom: 21rem;
+  margin-right: 21rem;
+}
+.feelthe{
+  position: absolute;
+  margin-bottom: 27rem;
+  margin-left: 28rem;
+}
+
+
+
+
+@media (max-width:768px){
+.Landing-flex {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.border-circle{
+  margin-left: 4rem;
+}
+.box1{
+  display: flex;
+  flex: 1;
+  padding: 8rem 0;
+}
+.box2{
+  display: flex;
+  flex: 1;
+}
+.box1 .feelthe{
+  margin: 0 auto;
+}
+
+}
