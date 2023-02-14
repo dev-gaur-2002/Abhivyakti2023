@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "../styles/Landing.module.css";
+import Image from "next/image";
 
 const Landing = () => {
   return (
     <div className={styles["Landing"]}>
       <div className={styles["Landing-flex"]}>
         <div className={styles["box1"]}>
-          <div className={styles["feelthe"]}><img src="group 1.png" alt="#" /></div>
-          <span className={styles["follow"]}><img src="group.png" alt="#" /></span>
+          <div className={styles["feelthe"]}><Image src="/group 1.png" alt="#" width= {500} height= {500} /></div>
+          <span className={styles["follow"]}><Image src="/group.png" alt="#" width= {500} height= {500}/></span>
           <p>
             A stage to showcase who you truly are. A savory episode of{" "}
             <span className={styles["Enter"]}>entertainment</span> and

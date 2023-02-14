@@ -4,6 +4,7 @@ import Music from '../components/Musicevents/MusicEvents'
 
 
 import Hero from '../components/Hero/Hero'
+import Landing from './Landing'
 
 
 export default function Home() {
@@ -11,13 +12,9 @@ export default function Home() {
     <>
 
 
-<Hero/>
-      
-      <Music/>
-    
-
-
-      <Music/>
+      <Hero/>
+      <Landing/>
+      <Music/> 
     
 
     </>
