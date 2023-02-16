@@ -1,8 +1,8 @@
 import Head from "next/head";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "../styles/Home.module.css";
 import Music from "../components/Musicevents/MusicEvents";
 import DiskBanner from "../components/DiskBanner/DiskBanner";
-
 import Hero from "../components/Hero/Hero";
 import Landing from "./Landing";
 
@@ -21,10 +21,9 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
         />
       </Head>
-
-      <Hero />
-      <Landing />
+      <Hero/>
       <DiskBanner />
+      <Landing />
       <Music />
     </>
   );

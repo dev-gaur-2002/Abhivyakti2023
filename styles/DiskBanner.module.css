@@ -8,9 +8,10 @@
     align-items: center;
     justify-content: center;
     background-color: #eaffcf;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     overflow: hidden;
+    padding-top: 100vh;
 }
 
 .section-wrapper {
