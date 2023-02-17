@@ -3,8 +3,8 @@
 .herobackground{
     background-color: #FCFFE7;
     height: 768px;
-
-    
+    position: fixed;
+    /* z-index: 2; */
 }
 
 .herohead{
