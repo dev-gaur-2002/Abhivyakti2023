@@ -2,10 +2,34 @@ import React from "react";
 import styles from "../../styles/DiskBanner.module.css";
 import Image from "next/image";
 
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 
 
 const Landing = () => {
+
+
+  const [headerFixed, setHeaderFixed] = useState(false);
+
+  useEffect(() => {
+    
+    window.addEventListener("load", () => {
+      setHeaderFixed(true);
+    });
+
+   
+    window.addEventListener("scroll", () => {
+      const distanceFromTop = window.scrollY;
+
+      
+      if (distanceFromTop >= 770) {
+        setHeaderFixed(true);
+      } else {
+        setHeaderFixed(false);
+      }
+    });
+  }, []);
+
+
 
     useEffect(() => {
       const script = document.createElement("script");
@@ -37,7 +61,9 @@ const Landing = () => {
   return (
     <div className={styles["page"]}>
       <div className={styles["section-wrapper"]}>
-        <div className={styles["section-header"]}>
+        <div className={`${styles["section-header"]} ${
+          headerFixed ? styles["fixed-header"] : ""
+        }`}>
           <div className={styles["header--line"]} />
           <div className={styles["header--pill"]}>Abhivyakti</div>
         </div>
