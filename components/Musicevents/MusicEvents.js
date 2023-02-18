@@ -1,5 +1,5 @@
 import styles from "../../styles/MusicEvents.module.css";
-import Header from "../header/header";
+
 import React, { useState, useEffect, useRef } from "react";
 import Events from "../EventInfo/Events";
 const Music = () => {
@@ -38,7 +38,7 @@ const Music = () => {
   return (
     <div className={styles.musicBackground}>
       <div>
-        <Header />
+        
         <div
           className={styles.rightside}
           id={animated ? "animated" : "notanimated"}

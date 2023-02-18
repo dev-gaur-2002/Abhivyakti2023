@@ -42,10 +42,22 @@
   z-index: 1;
 }
 
+.logo {
+
+  width: 170px;
+  height: 120px;
+  margin-top: -35px;
+  
+  
+}
+
+
 .header--line {
   width: 1108px;
   height: 0px;
-  border: 2px solid #fe6582;
+  
+
+  border: 2px solid #DC99FA;
   border-radius: 2px;
 }
 

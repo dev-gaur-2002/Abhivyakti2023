@@ -65,7 +65,7 @@ const Landing = () => {
           headerFixed ? styles["fixed-header"] : ""
         }`}>
           <div className={styles["header--line"]} />
-          <div className={styles["header--pill"]}>Abhivyakti</div>
+          <div className={styles["header--pill"]}><img src="\images\abhivyakti.svg" className={styles.logo}></img></div>
         </div>
 
         <div className={styles["text-container"]}>
