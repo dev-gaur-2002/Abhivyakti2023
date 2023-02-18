@@ -144,8 +144,6 @@ z-index: 1;
   font-weight: 600;
   margin-right: 24rem;
   margin-top: 17rem;
-
-
 }
 
 .follow{
@@ -159,6 +157,10 @@ z-index: 1;
   margin-left: 28rem;
 }
 
+.follow{
+  /* position: absolute; */
+  /* top: 10%; */
+}
 
 
 
