@@ -1,25 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Rambla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 
-.page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #eaffcf;
-    height: 200vh;
-    width: 100vw;
-    overflow: hidden;
-    padding-top: 100vh;
+.fixed-header {
+  position: fixed;
+  margin-top: 23px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
-.section-wrapper {
-  box-sizing: border-box;
-  padding: 40px 0;
-  font-family: "Rambla", sans-serif;
+.logo {
+  width: 10rem;
+  height: 2.8rem;
+}
+
+.header--line {
+  width: 80vw;
+  border: 2px solid #fe6582;
+  border-radius: 2px;
+}
+
+.header--pill {
+  background: #0e1513;
+  width: 18rem;
+  padding: 0.3rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin-top: -1.4rem;
+}
+/* 
+.header--pill {
+  background: #0e1513;
+  width: 18rem;
+  padding: 0.3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #da9bf6;
+    font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-radius: 2rem;
+  margin-top: -1.4rem;
+} */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #eaffcf;
-  /* outline: 2px solid red; */
+  height: 100vh;
+}
+
+.section {
+  box-sizing: border-box;
+  font-family: "Rambla", sans-serif;
 }
 
 .section-header {
@@ -27,121 +62,83 @@
   flex-direction: column;
   align-items: center;
   justify-self: center;
- 
-  
-
-
-}
-.fixed-header{
-  position: fixed;
-  margin-top: 23px;
-  top: 0;
-  left: 0;
-  right: 0;
-
-  z-index: 1;
+  margin-bottom: 3rem;
 }
 
-.logo {
-
-  width: 170px;
-  height: 120px;
-  margin-top: -35px;
-  
-  
-}
-
-
-.header--line {
-  width: 1108px;
-  height: 0px;
-  
-
-  border: 2px solid #DC99FA;
-  border-radius: 2px;
-}
-
-.header--pill {
-  background: #0e1513;
-  width: 288px;
-  height: 45px;
-  font-family: "Open Sans", sans-serif;
-  color: #da9bf6;
-  font-size: 28px;
-  letter-spacing: 0.04em;
-  text-align: center;
-  line-height: 44px;
-  border-radius: 42.5px;
-  margin-top: -22px;
-}
-
-.text-container{
-     display: flex;
+.half-donout {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
-  margin-bottom: 24rem;
+  justify-content: center;
 }
 
-
-.border-circle {
+.big-circle {
+  width: 60vw;
+  height: 30vw;
   background-color: #fe6582;
-  border-radius: 315px 315px 0 0; /* Half the width of 630px */
-  width: 630px;
-  height: 315px; /* Half the original height of 630px */
-  position: relative;
-  margin-bottom: 14rem;
-  position: absolute;
-  z-index: 0;
+  border-radius: 30vw 30vw 0 0;
 }
 
-.inner-circle {
-  position: absolute;
-  height: 380px;
-  width: 380px;
+.small-circle {
+  width: 40vw;
+  height: 20vw;
   background-color: #eaffcf;
-  border-radius: 50%;
-  top: 125px;
-  left: 125px;
+  border-radius: 20vw 20vw 0 0;
+  margin-top: -20vw;
 }
 
 .play-button {
-  position: absolute;
-  width: 50px;
-  top: 255px;
-  left: 290px;
+  height: 3.6rem;
+  margin-top: -2rem;
 }
 
-.section-content {
+/* target phone */
+@media (max-width: 600px) {
+  .big-circle {
+    width: 90vw;
+    height: 45vw;
+    border-radius: 45vw 45vw 0 0;
+  }
+
+  .small-circle {
+    width: 66vw;
+    height: 33vw;
+    border-radius: 33vw 33vw 0 0;
+    margin-top: -33vw;
+  }
+
+  .play-button {
+    height: 2.6rem;
+    margin-top: -2rem;
+  }
+}
+
+/* .section-content {
   font-size: 36px;
   font-family: "Rambla";
   letter-spacing: 0.145em;
   text-align: center;
   align-items: center;
-}
+} */
 
 .section-footer {
-  width: 1108px;
+  width: 80vw;
   margin: 0 auto;
-  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-    z-index: 1;
+  margin-top: 3rem;
 }
 
 .footer--line {
-  width: 915px;
-  height: 0px;
+  width: 64vw;
   border: 2px solid #fe6582;
   border-radius: 2px;
 }
 
 .footer--text {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 99.02%;
-  display: flex;
   align-items: center;
   letter-spacing: 0.145em;
   text-transform: uppercase;
