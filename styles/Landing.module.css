@@ -156,7 +156,11 @@ z-index: 1;
   margin-bottom: 27rem;
   margin-left: 28rem;
 }
-
+.star{
+  position: absolute;
+  margin-top: 52vh;
+  margin-left: 38vh;
+}
 .follow{
   /* position: absolute; */
   /* top: 10%; */
@@ -177,11 +181,16 @@ z-index: 1;
 .box1{
   display: flex;
   flex: 1;
-  padding: 8rem 0;
+  padding: 20rem 100%;
 }
 .box2{
   display: flex;
   flex: 1;
+  padding: 20rem 100%;
+
+}
+.box2 p{
+  width: 10rem;
 }
 .box1 .feelthe{
   margin: 0 auto;

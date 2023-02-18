@@ -2,13 +2,14 @@
 
 .herobackground{
     background-color: #FCFFE7;
-    height: 768px;
+    height: 100vh;
     position: fixed;
     /* z-index: 2; */
 }
 
 .herohead{
     word-spacing: 10px;
+    margin-top: 1.6rem;
     overflow: hidden;
     display: flex;
     justify-content: flex-start;
