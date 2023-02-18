@@ -29,19 +29,6 @@
   border-radius: 2rem;
   margin-top: -1.4rem;
 }
-/* 
-.header--pill {
-  background: #0e1513;
-  width: 18rem;
-  padding: 0.3rem;
-  font-family: "Open Sans", sans-serif;
-  color: #da9bf6;
-    font-size: 1.6rem;
-  letter-spacing: 0.04em;
-  text-align: center;
-  border-radius: 2rem;
-  margin-top: -1.4rem;
-} */
 
 .wrapper {
   display: flex;
@@ -89,7 +76,7 @@
 
 .play-button {
   height: 3.6rem;
-  margin-top: -2rem;
+  margin-top: -4.6rem;
 }
 
 /* target phone */
