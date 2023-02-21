@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.Cardspage{
+    margin-left: 10%;
+    border: 4px #537FE7 solid;
+    border-radius: 10px;
+    width: 55%;
+    white-space: wrap;
+}
+.head{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Rambla";
+    margin-left: 5%;
+}
+.subhead{
+
+   font-size: 20px; 
+   font-weight: 400;
+}
+.body{
+    font-size: 20px;
+    margin-top: 10%;
+    padding-left: 4.5%;
+    padding-right:4.5% ;
+    font-family: "Rambla";font-family: "Rambla";
+    line-height: 25px;
+    letter-spacing: 1.5;
+}

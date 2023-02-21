@@ -1,0 +1,15 @@
+.CardSection{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaffcf;
+    display: flex;
+    justify-content: space-around;
+}
+.CardCollection{
+    display: flex;
+    width: 85%;
+    height: 80%;
+    margin-left: -5%;
+    margin-top: 5%;
+
+}
