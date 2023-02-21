@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap');
+
+.Footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+    font-family: 'Rambla', sans-serif;
+    font-size: 1.2rem;
+    background-color: #fef3e1;
+}
+
+.footerfle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    gap: 4rem;
+}
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sbi{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.sbi h3{
+    font-weight: 300;
+}
+.sbi img{
+    text-align: center;
+    height: 2.5rem;
+}
+.abhi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+}
+.abhi img{
+    padding: 0 0.5rem;
+}
+.abhi .oo{
+    height: 6rem;
+}
+.abhi .ah{
+    height: 4rem;
+}
+.cospon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+}
+.cospon img{
+    height: 1.5rem;
+}
+.box2 img{
+    height: 1.5rem;
+}
+.box1 h3{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+.linkss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    justify-items: center;
+    padding-top: 4rem;
+}
