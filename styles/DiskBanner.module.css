@@ -30,6 +30,11 @@
   margin-top: -1.4rem;
 }
 
+.buffer{
+  height: 100vh;
+  border: "2px solid red"
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -75,30 +80,12 @@
 }
 
 .play-button {
+  position: relative;
+  z-index: 2;
   height: 3.6rem;
   margin-top: -4.6rem;
 }
 
-/* target phone */
-@media (max-width: 600px) {
-  .big-circle {
-    width: 90vw;
-    height: 45vw;
-    border-radius: 45vw 45vw 0 0;
-  }
-
-  .small-circle {
-    width: 66vw;
-    height: 33vw;
-    border-radius: 33vw 33vw 0 0;
-    margin-top: -33vw;
-  }
-
-  .play-button {
-    height: 2.6rem;
-    margin-top: -2rem;
-  }
-}
 
 /* .section-content {
   font-size: 36px;
@@ -130,4 +117,30 @@
   letter-spacing: 0.145em;
   text-transform: uppercase;
   color: #fe6582;
+}
+
+
+/* target phone */
+@media (max-width: 600px) {
+  .big-circle {
+    width: 90vw;
+    height: 45vw;
+    border-radius: 45vw 45vw 0 0;
+  }
+
+  .small-circle {
+    width: 66vw;
+    height: 33vw;
+    border-radius: 33vw 33vw 0 0;
+    margin-top: -33vw;
+  }
+
+  .play-button {
+    height: 2.6rem;
+    margin-top: -2rem;
+  }
+  
+  .footer--line{
+    width: 30vw
+  }
 }

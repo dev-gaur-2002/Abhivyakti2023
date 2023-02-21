@@ -8,7 +8,6 @@ const DiskBanner = () => {
   const [headerFixed, setHeaderFixed] = useState(false);
   const [videoPlaying, setVideoPlaying] = useState(false);
 
-
   useEffect(() => {
     window.addEventListener("load", () => {
       setHeaderFixed(true);
@@ -26,46 +25,48 @@ const DiskBanner = () => {
   }, []);
 
   return (
-    <div className={styles["wrapper"]}>
-      <div
-        className={`${styles["section-header"]} ${
-          headerFixed ? styles["fixed-header"] : ""
-        }`}
-      >
-        <div className={styles["header--line"]} />
-        <div className={styles["header--pill"]}>
-          <img src="\images\abhivyakti.svg" className={styles.logo}></img>
+    <>
+      <div className={styles["buffer"]} />
+      <div className={styles["wrapper"]}>
+        <div
+          className={`${styles["section-header"]} ${
+            headerFixed ? styles["fixed-header"] : ""
+          }`}
+        >
+          <div className={styles["header--line"]} />
+          <div className={styles["header--pill"]}>
+            <img src="\images\abhivyakti.svg" className={styles.logo}></img>
+          </div>
+        </div>
+
+        {videoPlaying ? (
+          <iframe
+            width="80%"
+            height="66%"
+            src="https://www.youtube.com/embed/KMh-sfwSQdE"
+            title="Abhivyakti&#39;23 Theme Reveal"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        ) : (
+          <div className={styles["half-donout"]}>
+            <div className={styles["big-circle"]} />
+            <div className={styles["small-circle"]} />
+            <img
+              className={styles["play-button"]}
+              src="images/play-button.png"
+              onClick={() => setVideoPlaying(true)}
+            />
+          </div>
+        )}
+
+        <div className={styles["section-footer"]}>
+          <div className={styles["footer--line"]} />
+          <div className={styles["footer--text"]}>Abhivyakti 2023</div>
         </div>
       </div>
-
-      {videoPlaying ? (
-        <iframe
-          width="80%"
-          height="66%"
-          src="https://www.youtube.com/embed/KMh-sfwSQdE"
-          title="Abhivyakti&#39;23 Theme Reveal"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      ) : (
-        <div className={styles["half-donout"]}>
-          <div className={styles["big-circle"]} />
-          <div className={styles["small-circle"]} />
-          <img
-            className={styles["play-button"]}
-            src="images/play-button.png"
-            onClick={() => setVideoPlaying(true)}
-          />
-        </div>
-      )}
-
-      <div className={styles["section-footer"]}>
-        <div className={styles["footer--line"]} />
-        <div className={styles["footer--text"]}>Abhivyakti 2023</div>
-      </div>
-    </div>
-
+    </>
     //   <iframe width="1366" height="485" src="https://www.youtube.com/embed/KMh-sfwSQdE" title="Abhivyakti&#39;23 Theme Reveal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   );
 };
