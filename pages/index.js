@@ -10,7 +10,11 @@ import EventSection2 from "../components/EventSection2/EventSection2";
 import EventSection3 from "../components/EventSection3/EventSection3";
 import EventSection4 from "../components/EventSection4/EventSection4";
 import EventSection5 from "../components/EventSection5/EventSection5";
+
+import Speakers from "../components/Speakers/Speakers";
+
 import Footer from "../components/Footer";
+
 
 export default function Home() {
   return (
@@ -27,7 +31,11 @@ export default function Home() {
       <EventSection3/>
       <EventSection4/>
       <EventSection5/>
+
+      <Speakers></Speakers>
+
       <Footer />
+
     </>
   );
 }
