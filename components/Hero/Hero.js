@@ -1,5 +1,14 @@
 import { useEffect, useState } from "react";
 import styles from "../../styles/Hero.module.css";
+import trophyImg from "../../public/images/trophy.svg";
+import cupImg from "../../public/images/cup.svg";
+import mobileImg from "../../public/images/mobile.svg";
+import speakerImg from "../../public/images/notice.svg";
+import rainbowImg from "../../public/images/rainbow.svg";
+import starImg from "../../public/images/star.svg";
+import timeImg from "../../public/images/time.svg";
+import Image from "next/image";
+
 const Hero = () => {
   const [opacity, setOpacity] = useState(1);
 
@@ -20,152 +29,159 @@ const Hero = () => {
     <div className={styles.herobackground} style={{ opacity }}>
       <div className={styles.herohead}>
         <h2 className={styles.basichead}>
-          A NEXUS <img className={styles.trophy} src="\images\trophy.svg"></img>{" "}
-          OF EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          A NEXUS{" "}
+          <Image className={styles.trophy} src={trophyImg} alt="trophy" /> OF
+          EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" />A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" />A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img> A NEXUS{" "}
-          <img className={styles.trophy} src="\images\trophy.svg"></img> OF
-          EUPHORIC <img className={styles.cup} src="\images\cup.svg"></img>{" "}
-          <img className={styles.phone} src="\images\mobile.svg"></img>{" "}
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" /> A
+          NEXUS <Image className={styles.trophy} src={trophyImg} alt="trophy" />{" "}
+          OF EUPHORIC <Image className={styles.cup} src={cupImg} alt="cup" />{" "}
+          <Image className={styles.phone} src={mobileImg} alt="mobile" />{" "}
           <b>NOSTALGIA</b>{" "}
-          <img className={styles.speaker} src="\images\notice.svg"></img>
+          <Image className={styles.speaker} src={speakerImg} alt="speaker" />
         </h2>
       </div>
       <div className={styles.herohead}>
         <h1 className={styles.mainhead}>
           {" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image
+            className={styles.rainbow2}
+            src={rainbowImg}
+            alt="rainbow"
+          />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
-          2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
           ABHIVYAKTI 2023{" "}
-          <img className={styles.rainbow2} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI <img className={styles.star} src="\images\star.svg"></img>{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
           2023 <hr className={styles.circle}></hr>{" "}
-          <img className={styles.rainbow} src="\images\rainbow.svg"></img>{" "}
-          ABHIVYAKTI 2023
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI 2023{" "}
+          <Image className={styles.rainbow2} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI <Image className={styles.star} src={starImg} alt="star" />{" "}
+          2023 <hr className={styles.circle}></hr>{" "}
+          <Image className={styles.rainbow} src={rainbowImg} alt="rainbow" />{" "}
+          ABHIVYAKTI 2023{" "}
         </h1>
       </div>
       <div className={styles.herohead}>
         <h2 className={styles.basichead2}>
-          IT's REWIND <img className={styles.time} src="\images\time.svg"></img>{" "}
-          TIME <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND{" "}
-          <img className={styles.time} src="\images\time.svg"></img> TIME{" "}
-          <hr className={styles.circle2}></hr> IT's REWIND TIME{" "}
+          IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND{" "}
+          <Image className={styles.time} src={timeImg} alt="time" /> TIME{" "}
+          <hr className={styles.circle2}></hr> IT&apos;s REWIND TIME{" "}
           <hr className={styles.circle2}></hr>{" "}
         </h2>
       </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import styles from "../styles/Landing.module.css";
+import img1 from "../public/images/Group 7.svg";
+import img2 from "../public/images/Group 6.svg";
+import img3 from "../public/images/Group 9.svg";
 import Image from "next/image";
 
 const Landing = () => {
@@ -7,20 +10,26 @@ const Landing = () => {
     <div className={styles["Landing"]}>
       <div className={styles["Landing-flex"]}>
         <div className={styles["box1"]}>
-          <div className={styles["feelthe"]}><img src="\images\Group 7.svg" alt="#" /></div>
-          <span className={styles["follow"]}><img src="\images\Group 6.svg" alt="#" /></span>
+          <div className={styles["feelthe"]}>
+            <Image src={img1} alt="#" />
+          </div>
+          <span className={styles["follow"]}>
+            <Image src={img2} alt="#" />
+          </span>
           <p>
             A stage to showcase who you truly are. A savory episode of{" "}
             <span className={styles["Enter"]}>entertainment</span> and
             exhilaration.
           </p>
           <div className={styles["blue-cirle"]}>MOOD</div>
-          <div className={styles["star"]}> <img src="\images\Group 9.svg" alt="#" /> </div>
+          <div className={styles["star"]}>
+            {" "}
+            <Image src={img3} alt="#" />{" "}
+          </div>
         </div>
-      
+
         <div className={styles["box2"]}>
           <div className={styles["border-circle"]}>
-  
             <svg viewBox="58 -42 500 600">
               <defs>
                 <path id="curve" d="M110 180 A120 115 500 0 1 500 250" />

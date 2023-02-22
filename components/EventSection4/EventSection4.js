@@ -2,7 +2,7 @@ import styles from "../../styles/EventSection4.module.css";
 import React from "react";
 import Cards from "../Card/Card";
 
-const EventSection3 = () =>{
+const EventSection4 = () =>{
     return(
         <div className={styles.CardSection}>
             <div className={styles.CardCollection}>
@@ -16,4 +16,4 @@ const EventSection3 = () =>{
         </div>
     )
 }
-export default EventSection3;
+export default EventSection4;
