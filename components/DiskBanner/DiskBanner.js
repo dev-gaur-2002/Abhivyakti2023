@@ -3,6 +3,7 @@ import styles from "../../styles/DiskBanner.module.css";
 import Image from "next/image";
 import abhiImg from "../../public/images/Abhivyakti.svg";
 import playBtn from "../../public/images/play-button.png";
+import logo from "../../public/images/logoFinal 1.svg";
 
 import { useEffect, useState } from "react";
 
@@ -37,6 +38,9 @@ const DiskBanner = () => {
         >
           <div className={styles["header--line"]} />
           <div className={styles["header--pill"]}>
+            <div className={styles.logo2}>
+            <Image src={logo} className={styles.innerpart} alt="xyz"  />
+            </div>
             <Image src={abhiImg} alt="xyz" className={styles.logo} />
           </div>
         </div>

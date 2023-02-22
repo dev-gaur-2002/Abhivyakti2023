@@ -118,7 +118,17 @@
   text-transform: uppercase;
   color: #fe6582;
 }
-
+.logo2{
+  position: absolute;
+  margin-top: -0.8rem;
+  margin-left: -6rem;
+  background-color:#F8EAFF;
+  border-radius: 100%;
+  width: 5.5%;
+}
+.innerpart{
+  padding-top: 10%;
+}
 
 /* target phone */
 @media (max-width: 600px) {
