@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rambla:wght@400;700&display=swap");
+.CardSection{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaffcf;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.CardCollection{
+    margin-top: 100px;
+    display: flex;
+    width: 85%;
+    height: 80%;
+    margin-left: -5%;
+    margin-top: 5%;
+
+}

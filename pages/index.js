@@ -14,6 +14,7 @@ import EventSection5 from "../components/EventSection5/EventSection5";
 import Speakers from "../components/Speakers/Speakers";
 
 import Footer from "../components/Footer";
+import Speakers2 from "../components/Speakers2/Speakers2";
 
 
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
       <EventSection5/>
 
       <Speakers></Speakers>
-
+      <Speakers2/>
       <Footer />
 
     </>
